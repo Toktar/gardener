@@ -33,6 +33,7 @@ public class Thermometer {
                 temperatureGenerator();
             }
         };
+
       long delay = 2000;
         timer.schedule(temperatureGenerator, 1000, 5000);
 
