@@ -1,3 +1,5 @@
 public interface GardenBed {
-   public double getTimeTo();
+
+   public double getTimeToCome();
+   public double getTimeToWater();
 }
